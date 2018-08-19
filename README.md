@@ -6,8 +6,9 @@ OXID eShop 6
 
 
 ### Installation
-`composer config repo.ecs/demo git https://github.com/eComStyle/Demo`
-`composer require ecs/demo`
+`composer config repo.ecs/demo git https://github.com/eComStyle/Demo`  
+  
+`composer require ecs/demo`  
 
 
 ### License
