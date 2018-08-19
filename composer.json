@@ -1,0 +1,21 @@
+{
+    "name": "ecs/demo",
+    "description": "ECS Demo Module",
+    "type": "oxideshop-module",
+    "keywords": ["ecs", "ecomstyle", "ecomstyle.de"],
+    "homepage": "https://ecomstyle.de/",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/Demo"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\Demo\\": "../../../source/modules/ecs/Demo"
+        }
+    }
+}
